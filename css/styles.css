@@ -180,7 +180,7 @@ ul {
     cursor: pointer;
 }
 
-/************* SECTION content-one  **************/
+/************* SECTION content  **************/
 
 .content-text {
     font-weight: 500;
@@ -188,6 +188,10 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--title-color);
+}
+
+.content-img {
+    text-decoration: none;
 }
 
 .content-paragraf {
