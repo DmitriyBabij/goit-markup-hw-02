@@ -1,5 +1,16 @@
+:root {
+    --title-color:#2E2F42;
+    --link-color: #4D5AE5;
+    --text-color: #434455;
+    --main-color: #FFFFFF;
+    --color-white: #F4F4FD;
+    --iris-color: #404BBF;
+}
+
 body {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--main-color);
+    color: var(--text-color);
 }
 
 a {text-decoration: none;}
@@ -18,12 +29,12 @@ ul {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    color:#2E2F42;
+    color:var(--title-color);
     letter-spacing: 0.03em;   
 }
 
 .header-logo span {
-    color:#4D5AE5;
+    color:var(--link-color);
 }
 
 .header-menu-link {
@@ -31,23 +42,23 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--title-color);
 }
 
 .header-menu-link:hover,
-.header-menu-link:focus {color: #404BBF; text-decoration: underline;}
+.header-menu-link:focus {color: var(--iris-color); text-decoration: underline;}
 
 .header-soc-link {
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--text-color);
         font-style: normal;
 }
 
 .header-soc-link:hover,
-.header-soc-link:focus {color: #404BBF;}
+.header-soc-link:focus {color: var(--iris-color);}
 
 /*************     MAIN     **************/
 
@@ -58,7 +69,7 @@ ul {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--main-color);
 }
 
 .hero-bttn{
@@ -69,7 +80,7 @@ ul {
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--main-color);
     cursor: pointer;
 }
 
@@ -80,13 +91,13 @@ ul {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--title-color);
 }
 .main-feature-paragraf{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
 }
 
 /************* SECTION SERVICES **************/
@@ -96,7 +107,7 @@ ul {
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: var(--title-color);
 }
 
 /************* SECTION TEAM **************/
@@ -106,7 +117,7 @@ ul {
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: var(--title-color);
 }
 
 .team-title-name{
@@ -114,14 +125,14 @@ ul {
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: var(--title-color);
 }
 
 .team-paragraf{
     font-size: 16px;
     line-height: 1.5px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
 }
 
 /*************     FOOTER     **************/
@@ -132,19 +143,19 @@ ul {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    color: #F4F4FD;
+    color: var(--color-white);
     letter-spacing: 0.03em;
 }
 
 .footer-logo span {
-    color: #4D5AE5;
+    color: var(--link-color);
 }
 
 .footer-paragraf {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: var(--color-white);
 }
 
 
@@ -160,8 +171,13 @@ ul {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        color: #4D5AE5;
-        cursor: pointer;
+        color: var(--link-color);
+}
+
+.navigation-btn:hover,
+.navigation-btn:focus {
+    color:var(--iris-color);
+    cursor: pointer;
 }
 
 /************* SECTION content-one  **************/
@@ -171,12 +187,12 @@ ul {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--title-color);
 }
 
 .content-paragraf {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
 }
