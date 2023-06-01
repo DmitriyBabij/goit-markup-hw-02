@@ -67,6 +67,9 @@ ul {
 /*************     MAIN     **************/
 
 /************* SECTION HERO **************/
+.hero{
+    background: #2E2F42;
+}
 
 .hero-main{
     font-weight: 700;
@@ -116,6 +119,10 @@ ul {
 
 /************* SECTION TEAM **************/
 
+.team{
+    background-color: #F4F4FD
+}
+
 .team-title{
         font-weight: 700;
         font-size: 36px;
@@ -140,6 +147,10 @@ ul {
 }
 
 /*************     FOOTER     **************/
+
+.footer-cover{
+    background-color: #2e2f42;
+}
 
 .footer-logo {
     font-family: 'Raleway', sans-serif;
