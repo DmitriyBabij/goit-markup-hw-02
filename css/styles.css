@@ -69,6 +69,7 @@ ul {
 /************* SECTION HERO **************/
 .hero{
     background: #2E2F42;
+    text-align: center;
 }
 
 .hero-main{
@@ -80,13 +81,19 @@ ul {
 }
 
 .hero-bttn{
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--main-color);
     cursor: pointer;
+    background-color: var(--link-color);
+}
+
+.hero-bttn:hover,
+.hero-bttn:focus {
+    background-color: var(--iris-color);
 }
 
 /************* SECTION FEATURE **************/
