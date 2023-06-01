@@ -22,6 +22,9 @@ ul {
 .link {
     text-decoration: none;
 }
+.list {
+    list-style: none;
+}
 
 .header-logo { 
     font-family: 'Raleway', sans-serif;
