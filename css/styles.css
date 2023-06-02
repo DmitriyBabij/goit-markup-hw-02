@@ -197,18 +197,24 @@ ul {
 /************* SECTION navigation  **************/
 
 .navigation-btn {
-        font-family: 'Roboto';
+        font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: var(--link-color);
+        background-color: var(--color-white);
+        cursor: pointer;
 }
 
-.navigation-btn:hover,
+.navigation-btn:hover {
+    color: var(--main-color);
+    background-color: var(--iris-color);;
+}
+
 .navigation-btn:focus {
-    color:var(--iris-color);
-    cursor: pointer;
+    color:var(--main-color);
+    background-color: var(--iris-color);
 }
 
 /************* SECTION content  **************/
