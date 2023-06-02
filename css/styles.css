@@ -1,10 +1,16 @@
 :root {
-    --title-color:#2E2F42;
-    --link-color: #4D5AE5;
+    --title-color:#2e2f42;
+    --link-color: #4d5ae5;
     --text-color: #434455;
-    --main-color: #FFFFFF;
-    --color-white: #F4F4FD;
-    --iris-color: #404BBF;
+    --main-color: #ffffff;
+    --color-white: #f4f4fd;
+    --iris-color: #404bbf;
+    --color-green: #31d0aa;
+    --color-light-slate: #8e8f99;
+    --color-cornflower: #e7e9fc;
+    --color-navy-blue-modal: #2e2f42;
+    --color-grey: #2e2f42;
+    --color-dairy: #fcfcfc;
 }
 
 body {
@@ -74,13 +80,15 @@ ul {
 }
 
 .header-soc-link:hover,
-.header-soc-link:focus {color: var(--iris-color);}
+.header-soc-link:focus {
+    color: var(--iris-color);
+}
 
 /*************     MAIN     **************/
 
 /************* SECTION HERO **************/
 .hero{
-    background: #2E2F42;
+    background: var(--title-color);
     text-align: center;
 }
 
@@ -207,13 +215,9 @@ ul {
         cursor: pointer;
 }
 
-.navigation-btn:hover {
-    color: var(--main-color);
-    background-color: var(--iris-color);
-}
-
+.navigation-btn:hover,
 .navigation-btn:focus {
-    color:var(--main-color);
+    color: var(--main-color);
     background-color: var(--iris-color);
 }
 
