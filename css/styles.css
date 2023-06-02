@@ -209,7 +209,7 @@ ul {
 
 .navigation-btn:hover {
     color: var(--main-color);
-    background-color: var(--iris-color);;
+    background-color: var(--iris-color);
 }
 
 .navigation-btn:focus {
