@@ -37,7 +37,7 @@ ul {
     text-transform: uppercase;
 }
 
-.header-logo span {
+.span_studio {
     color: var(--title-color);
 }
 
@@ -178,18 +178,7 @@ ul {
     background-color: var(--title-color);
 }
 
-.footer-logo {
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: var(--link-color);
-    text-transform: uppercase;
-}
-
-.footer-logo span {
+.span_studio_f {
     color: var(--color-white);
 }
 
