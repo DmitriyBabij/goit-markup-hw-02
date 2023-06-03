@@ -34,7 +34,6 @@ ul {
 
 .header-logo { 
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -68,14 +67,13 @@ ul {
 }
 
 .header-menu-link:hover,
-.header-menu-link:focus {color: var(--iris-color); text-decoration: underline;}
+.header-menu-link:focus {color: var(--iris-color);}
 
 .header-soc-link {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
 
 }
 
@@ -235,10 +233,8 @@ ul {
     color: var(--title-color);
 }
 .content-paragraf {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
-    font-style: normal;
 }
